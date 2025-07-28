@@ -1,6 +1,5 @@
-# kubernetes-installation
+
 # Kubernetes Installation Guide on Fedora (K8s v1.33.x)
-Kubernetes Installation Guide on Fedora (K8s v1.33.x)
 ________________________________________
 1. Prepare Both Master and Worker Nodes
 
