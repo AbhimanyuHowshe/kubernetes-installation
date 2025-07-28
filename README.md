@@ -13,8 +13,6 @@ ________________________________________
 sudo rpm --import https://packages.cloud.google.com/yum/doc/yum-key.gpg
 ________________________________________
 3. Add Kubernetes Repository (v1.33)
-bash
-CopyEdit
 cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
 [kubernetes]
 name=Kubernetes
