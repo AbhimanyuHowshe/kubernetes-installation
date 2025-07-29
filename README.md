@@ -102,7 +102,9 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ________________________________________
 13. Deploy Pod Network (Calico Recommended)
-kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.27.0/manifests/calico.yaml
+kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
+
+14. 
 This sets up networking between pods.
 ________________________________________
 Worker Node Specific Steps
